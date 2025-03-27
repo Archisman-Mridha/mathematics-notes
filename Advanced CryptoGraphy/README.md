@@ -8,15 +8,15 @@ Main references :
 
 Summarization of the course :
 
-## Interactive Proofs (IPs)
-
 In Cryptography, a `language` is defined as a set of strings. And the set of languages for which, membership can be proved in polynomial time, are called `Non-deterministic Polynomial time (NP) languages`.
+
+## Interactive Proofs (IPs)
 
 The lecturer starts introducing us to `Interactive Proofs (IPs)`. For IPs :
 - we allow repeated interactions (>> 1) between the prover and the verifier.
 - there is a very small probability that the verifier may accept false proofs.
 
-> There's a concept in-between Non-interactive deterministic Proofs and IPs : **Non-interactive Proofs were the verifier V is randomized**.
+> There's a concept in-between NPs and IPs : **Non-interactive Proofs were the verifier V is randomized**.
 >
 > Suppose, we want to prove the matrix multiplication operation of two matrices n x n matrices A and B. The best known deterministic algorithm for doing this has a complexity of O(n^2.36).
 >
@@ -83,3 +83,11 @@ This is caled the `Low Degree Extension Theorem`.
 Notice that f~ is a multivariate polynomial. Instead of f, **we use f~ in the equation involving summation**. And then apply the Sum Check Protocol to prove that equation.
 
 ## The GKR protocol
+
+- [GKR protocol: a step-by-step example](https://blog.lambdaclass.com/gkr-protocol-a-step-by-step-example/)
+
+- [GKR By Hand](https://github.com/PolyhedraZK/blogs/blob/main/blogs/gkr-by-hand.ipynb)
+
+- [The GKR Protocol](https://montekki.github.io/thaler-ch4-4/)
+
+- [Understanding GKR](https://research.chainsafe.io/blog/gkr/)
